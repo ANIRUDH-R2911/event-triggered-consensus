@@ -27,9 +27,15 @@ This project investigates communication-efficient consensus protocols in multi-a
 
 ## Key Result: Communication vs Convergence Trade-off
 
-![Trade-off Plot](results/.png)
+![Trade-off Plot](results/Tradeoff_Event_vs_Convergence_Time.png)
 
 This plot shows that increasing the triggering threshold reduces communication events but slows convergence, demonstrating a fundamental trade-off in event-triggered consensus systems.
+
+## Example: Event-Triggered Consensus Behavior
+
+![Event-Triggered Consensus](results/Et_Consensus.png)
+
+Agents converge to a common value under event-triggered communication, demonstrating reduced communication compared to continuous consensus.
 
 ## Technologies Used
 
