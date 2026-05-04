@@ -25,6 +25,12 @@ This project investigates communication-efficient consensus protocols in multi-a
 * Significant communication reduction (up to 99%)
 * Clear trade-off between convergence and communication
 
+## Key Result: Communication vs Convergence Trade-off
+
+![Trade-off Plot](results/.png)
+
+This plot shows that increasing the triggering threshold reduces communication events but slows convergence, demonstrating a fundamental trade-off in event-triggered consensus systems.
+
 ## Technologies Used
 
 * Python
@@ -34,10 +40,23 @@ This project investigates communication-efficient consensus protocols in multi-a
 
 ## How to Run
 
+### Option 1: Jupyter Notebook
+
 ```bash
 pip install -r requirements.txt
-python src/main.py
+jupyter notebook
 ```
+
+Open:
+
+```
+Event_Triggered_Consensus.ipynb
+```
+
+### Option 2: Run in VS Code
+
+Open the notebook and run all cells.
+
 
 ## Future Work
 
