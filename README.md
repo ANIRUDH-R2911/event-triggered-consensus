@@ -1,4 +1,4 @@
-# event-triggered-consensus
+# Event-Triggered-Consensus
 # Communication-Efficient Event-Triggered Consensus in Multi-Agent Systems
 
 ## Overview
